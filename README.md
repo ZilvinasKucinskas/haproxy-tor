@@ -20,7 +20,6 @@ Parents
  * [mattes/rotating-proxy](https://github.com/mattes/rotating-proxy)
  * [zet4/alpine-tor](https://github.com/zet4/alpine-tor)
   
-  
 Why:
 ---
 Lots of IP addresses. One single endpoint for your client. Load-balancing by HAProxy.
