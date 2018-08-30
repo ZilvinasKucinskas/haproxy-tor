@@ -1,6 +1,5 @@
 haproxy-tor
 -----------
-<hr>
 
 ```
                Docker Container
@@ -13,7 +12,6 @@ Client <---->  HAproxy  <-> Tor HTTPTunnelPort 2
                         <-> Tor HTTPTunnelPort n
 ```
 
-<hr>
 
 Parents
 -------
@@ -22,7 +20,6 @@ Parents
  * [mattes/rotating-proxy](https://github.com/mattes/rotating-proxy)
  * [zet4/alpine-tor](https://github.com/zet4/alpine-tor)
   
-<hr>
   
 Why:
 ---
@@ -39,7 +36,6 @@ since there is no real need for extra external software for this setup.<br>
 Changing Tor settings is done by changing the reference `torrc.cfg.erb` file.<br>
 If a change isn't consistent across all `torrc` files, `proxy_setup.rb` should be enhanced.<br>
 
-<hr>
 
 Usage:
 ------
@@ -59,7 +55,6 @@ docker run -d -p 10000:20000 -p 10100:20100 -p 15000:25000 -e number_of_tors=15 
 
 ```
 
-<hr>
 
 Environment Variables
 ---------------------
@@ -74,8 +69,6 @@ Environment Variables
  * `username` - HAProxy stats username (Default: username). 
  * `password` - HAProxy stats password (Default: password).
  
-
-<hr>
 
 Further Readings
 ----------------
