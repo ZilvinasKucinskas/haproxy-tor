@@ -17,11 +17,10 @@ Client <---->  HAproxy  <-> Tor HTTPTunnelPort 2
 
 Parents
 -------
- * [rdsubhas/docker-tor-privoxy-alpine](https://github.com/rdsubhas/docker-tor-privoxy-alpine)
  * [Negashev/docker-haproxy-tor](https://github.com/Negashev/docker-haproxy-tor)
-   * [marcelmaatkamp/docker-alpine-tor](https://github.com/marcelmaatkamp/docker-alpine-tor)
-   * [mattes/rotating-proxy](https://github.com/mattes/rotating-proxy)
-   * [zet4/alpine-tor](https://github.com/zet4/alpine-tor)
+ * [marcelmaatkamp/docker-alpine-tor](https://github.com/marcelmaatkamp/docker-alpine-tor)
+ * [mattes/rotating-proxy](https://github.com/mattes/rotating-proxy)
+ * [zet4/alpine-tor](https://github.com/zet4/alpine-tor)
   
 <hr>
   
